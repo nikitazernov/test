@@ -36,8 +36,6 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: nginx
-  annotations:
-    rewritePath: /
 spec:
   ingressClassName: nginx
   rules:
@@ -45,6 +43,7 @@ spec:
     http:
       paths:
       - path: /test1
+        rewritePath: /
         pathType: Prefix
         backend:
           service:
