@@ -1,6 +1,5 @@
 helm:
-  repo: https://operator.min.io
-  chart: operator
-  releaseName: minio-operator
-  values:
-    replicas: "4"
+  repo: https://helm.linkerd.io/edge
+  chart: linkerd-crds
+  releaseName: linkerd-crds
+  namespace: linkerd
