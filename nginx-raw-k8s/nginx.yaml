@@ -37,7 +37,7 @@ kind: Ingress
 metadata:
   name: nginx
   annotations:
-    nginx.ingress.kubernetes.io/rewrite-target: /
+    rewritePath: /
 spec:
   ingressClassName: nginx
   rules:
