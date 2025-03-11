@@ -39,7 +39,8 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - http:
+  - host: *
+    http:
       paths:
       - path: /test1
         pathType: Prefix
