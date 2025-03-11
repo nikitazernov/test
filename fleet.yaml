@@ -1,13 +1,5 @@
-defaultNamespace: linkerd
-
 helm:
-  repo: https://helm.linkerd.io/edge
-  chart: linkerd-crds
-  releaseName: linkerd-crds
-
-helm:
-  repo: https://helm.linkerd.io/edge
-  chart: linkerd-control-plane
-  releaseName: linkerd-control-plane
-  valuesFiles:
-    - linkerd-values-ha.yaml
+  repo: https://operator.min.io
+  chart: operator
+  releaseName: minio-operator
+  namespace: minio-operator
