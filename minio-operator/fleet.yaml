@@ -1,4 +1,4 @@
-namespace: minio-operator
+defaultNamespace: minio-operator
 
 helm:
   repo: https://operator.min.io
