@@ -1,8 +1,0 @@
-defaultNamespace: minio1
-
-helm:
-  repo: https://operator.min.io
-  chart: tenant
-  releaseName: minio1
-  valuesFiles:
-    - values.yaml
