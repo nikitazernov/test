@@ -1,0 +1,6 @@
+helm:
+  repo: https://operator.min.io
+  chart: minio-operator/operator
+  releaseName: minio-operator
+  values:
+    replicas: "4"
