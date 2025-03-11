@@ -1,5 +1,6 @@
+namespace: minio-operator
+
 helm:
   repo: https://operator.min.io
   chart: operator
   releaseName: minio-operator
-  namespace: minio-operator
