@@ -1,4 +1,4 @@
-namespace: linkerd
+defaultNamespace: linkerd
 
 helm:
   repo: https://helm.linkerd.io/edge
